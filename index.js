@@ -4,15 +4,13 @@ console.log(ages)
 
 // Programmatically subtract the value of the first element in the array from the value in the last element of the array.
 
-
-
-
 let result = ages[ages.length - 1] - ages[0];
 console.log(result);
 
 // Add a new age to the array
 let newAge = 45;
 ages.push(newAge);
+console.log(ages);
 
 // Repeat the subtraction for the updated array
 let resultDynamic = ages[ages.length - 1] - ages[0];
